@@ -1,14 +1,24 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  header{
+    scroll-snap-align: start;
+  }
+  .container,.container-flex{
+    scroll-snap-align: start;
+  }
 #hero-block {
     background-image: url('../images/shirts.jpg'); 
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: #000;
-    color: #30302f;
+    background-color: #222;
+    color: #525252;
     transition: background-color 1s;
    
 }
 #hero-block:hover,#block-2:hover, #block-3:hover {
-    background-color: #444; 
+    background-color: #555; 
 }
 #block-2 {
     background-image: url('../images/high-flyer.jpg');
@@ -30,19 +40,25 @@
     background-color: #fff;
     color: #3066b0;
     transition: background-color 1s;
+   
 }
 #block-3 .display-3{
     font-weight: 100;
-    font-size: 7rem;
+    font-size: 3.5rem;
 }
 #block-4 .display-3{
     font-weight: 100;
     font-size: 3.5rem;
     text-transform: uppercase;
+   
+}
+#block-5{
+    
 }
 .wcw-hero{
     font-size: 10rem;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 8rem;
+    
 }
