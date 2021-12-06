@@ -1,17 +1,24 @@
 #hero-block {
-    background-image: url('../images/shirts.jpg');
+    background-image: url('../images/shirts.jpg'); 
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: #333;
+    background-color: #000;
     color: #30302f;
+    transition: background-color 1s;
+   
+}
+#hero-block:hover,#block-2:hover, #block-3:hover {
+    background-color: #444; 
 }
 #block-2 {
     background-image: url('../images/high-flyer.jpg');
     background-size: cover;
     background-blend-mode: screen;
-    background-color: darkgray;
+    background-color: #fff;
     color: rgb(90, 90, 90);
+    transition: background-color 1s;
 }
+
 #block-2 .display-3{
     font-weight: 100;
     font-size: 3.5rem;
@@ -19,9 +26,10 @@
 #block-3 {
     background-image: url('../images/fog.jpg');
     background-size: cover;
-    background-blend-mode: #ddd;
-    background-color: #252525;
-    color: #346276;
+    background-blend-mode: screen;
+    background-color: #fff;
+    color: #3066b0;
+    transition: background-color 1s;
 }
 #block-3 .display-3{
     font-weight: 100;
